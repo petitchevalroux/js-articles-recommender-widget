@@ -2,6 +2,7 @@
 
 ## Usage
 ```javascript
-var widget = require("articles-recommander-widget");
+var Widget = require("articles-recommander-widget");
+var widget = new Widget({"host":"example.com"});
 widget.loadSlots([{"target": "target", "count": 4}]);
 ```
